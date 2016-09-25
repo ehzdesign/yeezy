@@ -11,7 +11,7 @@ body{
 }
 
 h2{
-  font-size: 1em;
+  font-size: 1.4em;
   letter-spacing: 1em;
   text-transform: uppercase;
 }
@@ -19,6 +19,11 @@ h2{
 ul{
   list-style-type: none;
   padding: 0;
+}
+
+section{
+  padding-top: 5em;
+  padding-bottom: 5em;
 }
 
 
@@ -41,6 +46,30 @@ ul{
 .social h2{
   font-weight: 400;
   text-transform: uppercase;
+}
+
+/*contact info*/
+.contact-info{
+  background-image: url('images/toronto.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 2em 0;
+}
+
+/*map section*/
+
+#map{
+  height: 100%;
+  width: 100%;
+  /*-webkit-mask: url(images/mask.svg);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;*/
+}
+
+.map-container{
+  height: 400px;
+  margin: 5em 0;
 }
 
 /*.container{*/
