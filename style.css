@@ -3,6 +3,8 @@
 /*base*/
 body{
   font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 *{
@@ -14,6 +16,7 @@ h2{
   font-size: 1.4em;
   letter-spacing: 1em;
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 ul{
@@ -21,7 +24,16 @@ ul{
   padding: 0;
 }
 
-section{
+p,
+li{
+text-transform: uppercase;
+letter-spacing: 0.6em;
+line-height: 2em;
+font-size: .9em;
+}
+
+section,
+.social{
   padding-top: 5em;
   padding-bottom: 5em;
 }
@@ -43,18 +55,41 @@ section{
   min-height: 80vh;
 }
 
-.social h2{
-  font-weight: 400;
-  text-transform: uppercase;
+
+
+/*contact section*/
+.contact{
+  position: relative;
+  overflow-x: hidden;
 }
 
 /*contact info*/
 .contact-info{
-  background-image: url('images/toronto.png');
+  z-index: 20;/*second layer*/
+  position: relative;
+  /*background-image: url('images/toronto.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 90%;
-  padding: 2em 0;
+  padding: 2em 0;*/
+}
+
+.contact__address{
+  text-transform: uppercase;
+}
+
+.toronto_text_bg_big{
+text-align: center;
+color: #f7f7f7;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 22em;
+position: absolute;
+width: 100%;
+top: -0.3em;
+left: -0.4em;
+z-index: 10; /*first layer*/
 }
 
 /*map section*/
@@ -69,7 +104,9 @@ section{
 
 .map-container{
   height: 400px;
-  margin: 5em 0;
+  margin: 10em 0;
+  position: relative;
+  z-index: 20;
 }
 
 /*.container{*/
