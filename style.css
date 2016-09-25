@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Work+Sans:400,700';
+
+/*base*/
+body{
+  font-family: 'Work Sans', sans-serif;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h2{
+  font-size: 1em;
+  letter-spacing: 1em;
+  text-transform: uppercase;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+
+/*theme style*/
+.text-light{
+  color: white;
+}
+
+/*social section*/
+.social{
+  background-image: url('images/kanye_footer.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  min-height: 80vh;
+}
+
+.social h2{
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/*.container{*/
+  /*background-color: rgba(189, 120, 135, 0.42);*/
