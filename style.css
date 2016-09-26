@@ -39,11 +39,28 @@ section,
 }
 
 
+.redline{
+  position: fixed;
+  width: 80%;
+  height:100%;
+  border-left: 1px solid #ffb0b0;
+  border-right: 1px solid #ffb0b0;
+  left:50%;
+  margin-left: -40%;
+  z-index: 0;
+
+}
+
 
 
 /*theme style*/
 .text-light{
   color: white;
+}
+
+footer{
+  z-index: 5;
+  position: relative;
 }
 
 /*social section*/
