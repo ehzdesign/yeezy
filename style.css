@@ -11,9 +11,18 @@ body{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+/*
 h2{
-  font-size: 1.4em;
+  font-size: 1.1em;
+}
+
+h3{
+  font-size: 1em;
+}*/
+
+h2,
+h3{
+  font-size: 1em;
   letter-spacing: 1em;
   text-transform: uppercase;
   font-weight: 700;
@@ -32,11 +41,19 @@ line-height: 2em;
 font-size: .9em;
 }
 
+
+
+.section__title{
+  margin-bottom: 14em;
+}
+
 section,
 .social{
-  padding-top: 5em;
-  padding-bottom: 5em;
+  padding-top: 8em;
+  padding-bottom: 8em;
 }
+
+
 
 
 .redline{
@@ -56,6 +73,61 @@ section,
 /*theme style*/
 .text-light{
   color: white;
+}
+
+.products{
+  margin-bottom: 6em;
+  position: relative;
+}
+
+.products-bg-image{
+  position: absolute;
+  z-index: 10;
+  opacity: .28;
+  width:65%;
+  top: -10em;
+}
+
+.products-bg-image img{
+  max-width: 100%;
+}
+
+
+.product{
+  height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+
+}
+
+.product__title{
+  font-size: .7em;
+  margin-top: 5em;
+}
+
+.product,
+.product__title{
+  z-index: 20;
+  position: relative;
+
+}
+
+.product img{
+  mix-blend-mode: multiply;
+}
+
+img[alt*="boost"]{
+  margin-bottom: 1em;
+  max-width: 120px;
+}
+
+img[alt*="hat"]{
+  max-width: 100px;
+}
+
+img[alt*="jacket"]{
+  max-width: 120px;
 }
 
 footer{
