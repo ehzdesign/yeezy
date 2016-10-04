@@ -218,8 +218,16 @@ function initMap() {
 
 
 
+
+
+
   //animation
   window.sr = ScrollReveal();
+
+
+    if (sr.isSupported()) {
+           document.documentElement.classList.add('sr');
+         }
 // // sr.reveal('.large-bg-image');
 sr.reveal('.large-bg-image--pablo',
 { origin: 'right' ,
@@ -380,6 +388,7 @@ sr.reveal('.social-links-container i:first-child', {
   opacity: 0,
   viewFactor: .2,
   duration: 2000,
+  delay: 1000,
     easing:'cubic-bezier(0.23, 1, 0.32, 1)',
   reset: true
 });
@@ -391,7 +400,7 @@ sr.reveal('.social-links-container i:nth-child(2)', {
   opacity: 0,
   viewFactor: .2,
   duration: 2000,
-  delay: 200,
+  delay: 1200,
     easing:'cubic-bezier(0.23, 1, 0.32, 1)',
   reset: true
 });
@@ -403,7 +412,7 @@ sr.reveal('.social-links-container i:nth-child(3)', {
   opacity: 0,
   viewFactor: .2,
   duration: 2000,
-  delay: 300,
+  delay: 1400,
     easing:'cubic-bezier(0.23, 1, 0.32, 1)',
   reset: true
 });
