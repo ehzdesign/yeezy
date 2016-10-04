@@ -5,6 +5,7 @@ body{
   font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+  max-width: 1440px;
 }
 
 *{
@@ -283,6 +284,10 @@ img[alt="pablo-sm"]{
   background-size:cover;
   background-position:center;
   min-height: 80vh;
+}
+
+.social h2{
+  margin-bottom: 6em;
 }
 
 

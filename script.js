@@ -170,7 +170,7 @@ function initMap() {
     var contentString = '<div id="map_info_window">'+
             '<div id="siteNotice">'+
             '</div>'+
-            '<h1 id="firstHeading" class="firstHeading">YEEZY TO</h1>'+
+            '<h2 id="firstHeading" class="firstHeading">YEEZY TO</h2>'+
             '<div id="bodyContent">'+
             '<p><b>YEEZY SAYS</b>, "I always misspell genius SMH! The irony!"</p>' +
             '</div>'+
