@@ -390,7 +390,7 @@ sr.reveal('.social-links-container i:first-child', {
   duration: 2000,
   delay: 1000,
     easing:'cubic-bezier(0.23, 1, 0.32, 1)',
-  reset: true
+  reset: false
 });
 
 sr.reveal('.social-links-container i:nth-child(2)', {
@@ -402,7 +402,7 @@ sr.reveal('.social-links-container i:nth-child(2)', {
   duration: 2000,
   delay: 1200,
     easing:'cubic-bezier(0.23, 1, 0.32, 1)',
-  reset: true
+  reset: false
 });
 
 sr.reveal('.social-links-container i:nth-child(3)', {
@@ -414,5 +414,5 @@ sr.reveal('.social-links-container i:nth-child(3)', {
   duration: 2000,
   delay: 1400,
     easing:'cubic-bezier(0.23, 1, 0.32, 1)',
-  reset: true
+  reset: false
 });
