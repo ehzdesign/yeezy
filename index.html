@@ -20,10 +20,42 @@
     <![endif]-->
   </head>
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
       <div class="redline"></div>
+    <!-- hero section -->
+    <div class="social-links">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-md-offset-10">
+            <div class="social-links-container">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-twitter"></i>
+              <i></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section id="hero">
+        <div class="hero-img baf">
+          <div class="hero-title">
+            <h1 class="text-right">YEEZY<span>toronto flagship store</span></h1>
+            <div class="bg-big-text">TO</div>
+          </div>
+        </div>
+    </section>
+    <!-- end of hero section -->
     <!-- tour section -->
     <section id="tour">
-      <div class="large-bg-image">
+      <div class="large-bg-image large-bg-image--pablo">
         <img src="images/pablo-bg.jpg" alt="tour-bg">
       </div>
       <div class="container wrapper">
@@ -36,8 +68,8 @@
         <div class="row">
           <div class="col-md-6">
             <div class="pablo-images">
-              <img src="images/pablo_lrg.jpg" alt="pablo-lg">
-              <img src="images/pablo_sml.jpg" alt="pablo-sm">
+              <img  src="images/pablo_lrg.jpg" alt="pablo-lg">
+              <img  src="images/pablo_sml-f.jpg" alt="pablo-sm">
             </div>
           </div>
         </div>
@@ -48,7 +80,7 @@
 
     <!-- products section -->
     <section id="products">
-      <div class="products-bg-image large-bg-image">
+      <div class="products-bg-image large-bg-image large-bg-image--products">
         <img src="images/productKanye.jpg" alt="">
       </div>
       <div class="container wrapper">
@@ -113,7 +145,7 @@
   <!-- footer -->
   <footer class="footer">
     <div class="container-fluid">
-      <div class="social">
+      <div class="social baf">
         <div class="container wrapper">
           <h2 class="text-light text-center">stay connected</h2>
           .<div class="row">
@@ -128,14 +160,15 @@
             </div>
             <div class="col-md-6">
               <!-- facebook-pages section begins -->
+              <div class="fb-page" data-href="https://www.facebook.com/Yeezy-to-2112533635638545/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Yeezy-to-2112533635638545/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Yeezy-to-2112533635638545/">Yeezy to</a></blockquote></div>
               <!-- facebook-pages section ends -->
             </div>
           </div>
         </div>
       </div>
-      <div class="name-bar">
-        <!-- <img src="#" alt=""> -->
-      </div>
+      <!-- <div class="name-bar">
+        <img src="images/yeezy.svg" alt="">
+      </div> -->
     </div>
   </footer>
   <!-- end of footer -->
@@ -145,6 +178,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv-OUC-t30e23kzbFfmswjWgwXlxalzKE&callback=initMap"
     async defer></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script> -->
+
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     <script src="script.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
