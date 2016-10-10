@@ -358,8 +358,90 @@ img[alt="pablo-sm"]{
   min-height: 80vh;
 }
 
+.form{
+  display: flex;
+  margin-bottom: 4em;
+  margin-top: 4em;
+  width: 100%;
+}
+
+input.subscribe{
+  flex-basis:80%;
+  border-right: transparent;
+
+}
+
+.form .subscribe{
+  padding: 1.5em;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-family: 'Work Sans';
+  letter-spacing: .2em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-size: .8em;
+  font-weight: 700;
+}
+
+.button-container{
+  position: relative;
+}
+.button-container:hover .hover-overlay{
+  width: 100%;
+}
+
+.button-container:hover button.subscribe{
+  color: black;
+}
+
+.hover-overlay{
+  position: absolute;
+    width: 0;
+    height: 100%;
+    background: white;
+    transition: width .3s ease;
+    z-index: 4;
+}
+
+button.subscribe{
+  position: relative;
+  z-index: 10;
+  transition: color .3s ease;
+  border-left: transparent;
+  height: 100%;
+}
+
+.subscribe-text{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .6em;
+  margin-bottom: 12em;
+}
+
+.subscribe-text h5{
+  font-weight: 700;
+}
+
+
+
+
 .social h2{
   margin-bottom: 6em;
+}
+
+.footer-social-links{
+  color: white;
+display: flex;
+width: 60%;
+margin: 0 auto;
+justify-content: space-around;
+font-size: 1.6em;
+margin: 2em auto;
+}
+
+.footer-social-links i{
+  cursor: pointer;
 }
 
 
