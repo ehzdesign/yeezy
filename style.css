@@ -384,11 +384,11 @@ input.subscribe{
 
 .hover-overlay{
   position: absolute;
-    width: 0;
-    height: 100%;
-    background: white;
-    transition: width .3s ease;
-    z-index: 4;
+  width: 0;
+  height: 100%;
+  background: white;
+  transition: width .3s ease;
+  z-index: 4;
 }
 
 button.subscribe{
@@ -419,12 +419,12 @@ button.subscribe{
 
 .footer-social-links{
   color: white;
-display: flex;
-width: 60%;
-margin: 0 auto;
-justify-content: space-around;
-font-size: 1.6em;
-margin: 2em auto;
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-around;
+  font-size: 1.6em;
+  margin: 2em auto;
 }
 
 .footer-social-links i{
