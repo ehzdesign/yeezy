@@ -392,10 +392,6 @@ sr.reveal('.hero-title',
   reset: false
 });
 
-var is_reveal = navigator.userAgent.indexOf("Safari") > -1;
-if (is_reveal) {
-  $('.bg-big-text').css('top', '0.4em');
-}
 
 sr.reveal('.social-links-container i:first-child', {
   origin: 'bottom' ,

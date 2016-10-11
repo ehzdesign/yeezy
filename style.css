@@ -202,6 +202,7 @@ section,
   color: white;
   z-index: 5;
   flex-basis: auto;
+  top: 0.3em;
 }
 
 
@@ -470,6 +471,10 @@ button.subscribe{
   height: 100%;
   width: 100%;
 
+}
+
+.top{
+  top: 0.5em;
 }
 
 .map-container{
